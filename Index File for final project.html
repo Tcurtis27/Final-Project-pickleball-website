@@ -3,50 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pickleball Hub</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Pickleball Home</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Pickleball Hub</h1>
-        <nav>
-            <ul>
-                <li><a href="#about">About</a></li>
-                <li><a href="#rules">Rules</a></li>
-                <li><a href="#equipment">Equipment</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Pickleball</span> Info</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="rules.html">Rules</a></li>
+                    <li><a href="equipment.html">Equipment</a></li>
+                    <li><a href="tips.html">Tips</a></li>
+                    <li><a href="courts.html">Courts</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <section id="about">
-        <h2>About Pickleball</h2>
-        <p>Pickleball is a fast-growing sport that combines elements of tennis, badminton, and ping-pong.</p>
+    <section id="showcase">
+        <div class="container">
+            <h1>Welcome to Pickleball!</h1>
+            <p>Discover the fun and excitement of pickleball.</p>
+        </div>
     </section>
 
-    <section id="rules">
-        <h2>Rules of the Game</h2>
-        <p>Pickleball is played with a paddle and a plastic ball on a court similar to a badminton court.</p>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to Our Newsletter</h1>
+            <form>
+                <input type="email" placeholder="Enter Email...">
+                <button type="submit" class="button_1">Subscribe</button>
+            </form>
+        </div>
     </section>
 
-    <section id="equipment">
-        <h2>Essential Equipment</h2>
-        <p>You’ll need a paddle, a pickleball, and proper court shoes to get started.</p>
-    </section>
-
-    <section id="gallery">
-        <h2>Gallery</h2>
-        <img src="https://source.unsplash.com/featured/?pickleball" alt="Pickleball Image">
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>For more information, reach out to us at <a href="mailto:info@pickleballhub.com">info@pickleballhub.com</a>.</p>
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="https://via.placeholder.com/90">
+                <h3>Learn the Basics</h3>
+                <p>Get started with the fundamentals of pickleball.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/90">
+                <h3>Find Local Courts</h3>
+                <p>Locate pickleball courts near you.</p>
+            </div>
+            <div class="box">
+                <img src="https://via.placeholder.com/90">
+                <h3>Improve Your Game</h3>
+                <p>Strategies and tips to elevate your play.</p>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Pickleball Hub. All rights reserved.</p>
+        <p>Pickleball Info, Copyright &copy; 2024</p>
     </footer>
 </body>
 </html>
